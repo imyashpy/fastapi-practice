@@ -1,2 +1,12 @@
-# fastapi-practice
-Practice project with FastAPI demonstrating Path Parameters, Query Parameters, and Request Bodies. A simple student/university form API built while learning FastAPI basics.
+# FastAPI Practice
+
+This is a simple practice API built with **FastAPI**.
+
+It demonstrates:
+- Path Parameters  
+- Query Parameters  
+- Request Body (with Pydantic models)  
+
+## Run
+```bash
+poetry run uvicorn main:app --reload
